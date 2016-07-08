@@ -1,0 +1,33 @@
+ul li{
+    list-style-type: none;
+    width: 100%;
+
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    text-shadow: 10px 6px 10px black;
+}
+.flood-material{
+    background: #25B693;
+}
+.manster{
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+background:#229d7b;
+    text-align: center;
+    font-size: 16px;
+}
+table tr td{
+
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #25B693;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}

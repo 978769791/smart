@@ -1,0 +1,23 @@
+span{
+    display: block;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    background: #229d7b;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 7px;
+    border-radius: 9px;
+}
+.method{
+    width: 100%;
+    font-size: 16px;
+    line-height: 23px;
+    background: #229d7b;
+    border-radius: 10px;
+    color: white;
+    margin-top: 5px;
+    text-shadow: 6px 6px 10px black;
+    box-shadow: 7px 5px 4px rgba(0, 0, 0, 0.35);
+}

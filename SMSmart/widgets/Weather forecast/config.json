@@ -1,0 +1,40 @@
+{
+	"bookmarks": [{
+		"name": "卫星云图",
+		"extent": {
+			"xmin": 86.06689524994869,
+			"ymin": 22.108857182532834,
+			"xmax": 124.9584857499487,
+			"ymax": 48.08052948253283,
+			"spatialReference": {
+				"wkid": 4326
+			}
+		},
+		"thumbnail": "images/weixingyuntu.png"
+	}, {
+		"name": "雷达图",
+		"extent": {
+			"xmin": 115.75675399494872,
+			"ymin": 39.49540207753283,
+			"xmax": 116.97211564494873,
+			"ymax": 40.30701646753283,
+			"spatialReference": {
+				"wkid": 4326
+			}
+		},
+		"thumbnail": "images/leidatu.png"
+	  }, {
+		"name": "台风路径",
+		"extent": {
+			"xmin": 114.00237195394875,
+			"ymin": 30.383624440532838,
+			"xmax": 114.61005366394876,
+			"ymax": 30.789432226532835,
+			"spatialReference": {
+				"wkid": 4326
+			}
+		},
+		"thumbnail": "images/taifenglujing.png"
+	}],
+	"flyTime": 3000
+}

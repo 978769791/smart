@@ -1,0 +1,111 @@
+{
+	"bookmarks": [{
+		"name": "活泥兔5#淤地坝",
+		"extent": {
+			"x": 109.5542,
+			"y": 39.322,
+			"spatialReference": {
+				"wkid": 4326
+			}
+		},
+		"thumbnail": "images/huonitu.png"
+	},
+
+	  {
+	  "name": "大荫壕淤地坝",
+	  "extent": {
+		"x": 109.5813,
+		"y": 39.5133,
+		"spatialReference": {
+		  "wkid": 4326
+		}
+	  },
+	  "thumbnail": "images/dayinhao.png"
+	},
+
+	  {
+		"name": "老陈沟淤地坝",
+		"extent": {
+		  "x": 110.0233,
+		  "y": 40.0149,
+		  "spatialReference": {
+			"wkid": 4326
+		  }
+		},
+		"thumbnail": "images/laochenggou.png"
+	  },
+
+	  {
+		"name": "垛子渠1#淤地坝",
+		"extent": {
+			"x": 109.0538,
+			"y": 39.5910,
+			"spatialReference": {
+				"wkid": 4326
+			}
+		},
+		"thumbnail": "images/duoziqu.png"
+	},
+
+	  {
+		"name": "马连场2#淤地坝",
+		"extent": {
+			"x": 110.1157,
+			"y": 39.3823,
+			"spatialReference": {
+				"wkid": 4326
+			}
+		},
+		"thumbnail": "images/malianchang.png"
+	},
+
+	  {
+		"name": "速机沟沟口淤地坝",
+		"extent": {
+			"x": 110.4641,
+			"y": 39.4829,
+			"spatialReference": {
+				"wkid": 4326
+			}
+		},
+		"thumbnail": "images/sujigou.png"
+	},
+
+	  {
+		"name": "沙渠沟淤地坝",
+		"extent": {
+			"x": 111.0105,
+			"y": 39.4928,
+			"spatialReference": {
+				"wkid": 4326
+			}
+		},
+		"thumbnail": "images/shaqugou.png"
+	},
+
+	  {
+		"name": "西黑岱主沟淤地坝",
+		"extent": {
+			"x": 111.0285,
+			"y": 39.5216,
+			"spatialReference": {
+				"wkid": 4326
+			}
+		},
+		"thumbnail": "images/xihei.png"
+	},
+
+	  {
+	  "name": "圪驼店沟口淤地坝",
+	  "extent": {
+		"x": 111.918,
+		"y": 39.5417,
+		"spatialReference": {
+		  "wkid": 4326
+		}
+	  },
+	  "thumbnail": "images/getuodian.png"
+	}
+],
+	"flyTime": 3000
+}

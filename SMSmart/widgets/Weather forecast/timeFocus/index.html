@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="css/demo.css">
+<link rel="stylesheet" href="css/timeliner.css">
+<link rel="stylesheet" href="css/timeliner_styling.css">
+<script src='js/jquery-1.6.2.min.js'></script>
+<script src='js/jquery.timeliner.min.js'></script>
+<script>
+$(document).ready(function(){
+
+// EXAMPLE 1:
+$('#example1').timeliner();
+
+// EXAMPLE 2:
+$('#example2').timeliner({
+tooltipposition: 'below',
+timelinewidth: 710,
+timelineverticalmargin: 35,
+transition: 'slide'
+});
+
+// EXAMPLE 3:
+$('#example3').timeliner({
+containerwidth: 600,
+containerheight: 300,
+timelinewidth: 550,
+timelineheight: 3,
+timelineverticalmargin: 0,
+autoplay: false,
+showtooltiptime: true,
+repeat: false,
+showtotaltime:true,
+timedisplayposition: 'below',
+transition: 'fade'
+});
+
+});
+
+// Callback function examples:
+function start_callback(id){
+if(id=='example1'){
+$('#callback_log').html('Timeliner "'+id+'" started');
+}
+}
+function newslide_callback(id, slide){
+if(id=='example1'){
+$('#callback_log').html('Timeliner "'+id+'" changed to slide '+slide);
+}
+}
+function end_callback(id){
+if(id=='example1'){
+$('#callback_log').html('Timeliner "'+id+'" ended');
+}
+}
+function paused_callback(id, slide){
+if(id=='example1'){
+$('#callback_log').html('Timeliner "'+id+'" paused at slide '+slide);
+}
+}
+function resumed_callback(id, slide){
+if(id=='example1'){
+$('#callback_log').html('Timeliner "'+id+'" resumed at slide '+slide);
+}
+}
+function click_callback(id, slide){
+if(id=='example1'){
+$('#callback_log').html('Clicked on slide '+slide+' of Timeliner "'+id+'"');
+}
+}
+</script>
+</head>
+<body class="keBody">
+<p style="width: 100%;height: 40px;line-height: 40px;font-size: 28px;color: white">卫星云图</p>
+<div class="kePublic">
+<!--效果html开始-->
+<div id="content">
+<ul id="example1" class="timeliner">
+<li title="Slide one" style="background:url(images/slide1.png);" lang="2"></li>
+<li title="Slide two" style="background:url(images/slide2.png);" lang="2"></li>
+<li title="Slide three with a long title" style="background:url(images/slide3.png);" lang="3"></li>
+    <li title="Slide two" style="background:url(images/slide4.png);" lang="3"></li>
+    <li title="Slide three with a long title" style="background:url(images/slide5.png);" lang="2"></li>
+    <li title="Slide two" style="background:url(images/slide6.png);" lang="2"></li>
+    <li title="Slide three with a long title" style="background:url(images/slide7.png);" lang="2"></li>
+</ul>
+</div>
+<!--效果html结束-->
+<div class="clear"></div>
+</div>
+</body>
+</html>

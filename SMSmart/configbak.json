@@ -1,0 +1,258 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "default",
+      "black",
+      "green",
+      "cyan"
+    ],
+    "version": "1.1"
+  },
+  "title": "智慧防汛",
+  "subtitle": "",
+  "logo": "images/logo.png"
+  ,
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/TabTheme2/widgets/SidebarController/Widget",
+        "positionRelativeTo": "map",
+        "position":{"left":0,"top":0,"bottom":0},
+
+        "version": "1.1",
+        "id": "themes/TabTheme2/widgets/SidebarController/Widget_23",
+        "name": "SidebarController",
+        "label": "侧边栏控制器"
+      },
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "positionRelativeTo": "browser",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 60
+        },
+        "version": "1.1",
+        "id": "themes/FoldableTheme/widgets/HeaderController/Widget_1",
+        "name": "HeaderController",
+        "label": "页眉控制器"
+      },
+      {
+        "uri": "widgets/MapLegend/Widget",
+        "position": {
+          "left": 375,
+          "top": "auto",
+          "right":"auto",
+          "bottom":25,
+          "width":260,
+          "height":240
+        },
+        "id": "widgets/MapLegend/Widget_8",
+        "positionRelativeTo": "map",
+        "name": "MapLegend",
+        "label": "MapLegend"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/PreloadWidgetIconPanel",
+      "positionRelativeTo": "map"
+    }
+  },
+  "map": {
+    "3D": true,
+    "2D": false,
+    "position": {
+      "left": 0,
+      "top": 60,
+      "right": 0,
+      "bottom": 0
+    },
+    "basemaps": [
+      {
+        "label": "google",
+        "type":"tiled"
+      }
+    ],
+    "smlayers":[
+      {
+        "layername":"大型淤地坝",
+        "layerid":"DXyudiba_point"
+      },
+      {
+        "layername":"骨干坝",
+        "layerid":"Guganba_point"
+      },
+      {
+        "layername":"中型淤地坝",
+        "layerid":"Zhongxingba_point"
+      },
+      {
+        "layername":"小型坝",
+        "layerid":"Xiaoxingba_point"
+      },
+      {
+        "layername":"准格尔沙棘",
+        "layerid":"ZhunGeErShaJiQu_polygon"
+      }
+    ],
+    "itemId": "",
+
+    "mapOptions": {
+      "extent": {
+        "xmin": 116.61,
+        "ymin": 26.23,
+        "xmax": 117.61,
+        "ymax": 27.23,
+        "spatialReference": {
+          "wkid": 4326
+        }
+      },
+      "logo": false,
+      "timeline": false
+    },
+    "id": "map"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "positionRelativeTo": "map",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5
+      }
+    },
+    "widgets": [
+      {
+        "name": "Bookmark",
+        "label": "书签",
+        "version": "1.1",
+        "uri": "widgets/Bookmark/Widget",
+        "index": 5,
+        "id": "widgets/Bookmark/Widget_15",
+        "openAtStart":false
+      }, {
+        "name": "Todays flood",
+        "label": "今日汛情",
+        "version": "1.1",
+        "uri": "widgets/Todays flood/Widget",
+        "index": 6,
+        "id": "widgets/Todays flood/Widget_15",
+        "openAtStart":false
+      }
+    ,{
+        "name": "Real Time Hydrologic",
+        "label": "实时水情",
+        "version": "1.1",
+        "uri": "widgets/Real Time Hydrologic/Widget",
+        "index": 7,
+        "id": "widgets/Real Time Hydrologic/Widget_15",
+        "openAtStart":false
+      },{
+        "name": "WidgetTemlate",
+        "label": "实时雨情",
+        "version": "1.1",
+        "uri": "widgets/WidgetTemlate/Widget",
+        "index": 8,
+        "id": "widgets/WidgetTemlate/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "Comparison Table",
+        "label": "对比图",
+        "version": "1.1",
+        "uri": "widgets/Comparison Table/Widget",
+        "index": 9,
+        "id": "widgets/Comparison Table/Widget_15",
+      "openAtStart":false
+      }
+    ,{
+        "name": "Engineering conditions",
+        "label": "工情",
+        "version": "1.1",
+        "uri": "widgets/Engineering conditions/Widget",
+        "index": 10,
+        "id": "widgets/Engineering conditions/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "Typhoon path",
+        "label": "台风路径",
+        "version": "1.1",
+        "uri": "widgets/Typhoon path/Widget",
+        "index": 11,
+        "id": "widgets/Typhoon path/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "Satellite Images",
+        "label": "卫星云图",
+        "version": "1.1",
+        "uri": "widgets/Satellite Images/Widget",
+        "index": 12,
+        "id": "widgets/Satellite Images/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "Radar Chart",
+        "label": "雷达图",
+        "version": "1.1",
+        "uri": "widgets/Radar Chart/Widget",
+        "index": 13,
+        "id": "widgets/Radar Chart/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "Weather forecast",
+        "label": "气象预报",
+        "version": "1.1",
+        "uri": "widgets/Weather forecast/Widget",
+        "index": 14,
+        "id": "widgets/Weather forecast/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "TheWeather forecast",
+        "label": "天气预报",
+        "version": "1.1",
+        "uri": "widgets/TheWeather forecast/Widget",
+        "index": 15,
+        "id": "widgets/TheWeather forecast/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "water Hydrologic",
+        "label": "实时雨情",
+        "version": "1.1",
+        "uri": "widgets/water Hydrologic/Widget",
+        "index": 17,
+        "id": "widgets/water Hydrologic/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "Projets",
+        "label": "重点水利工程",
+        "version": "1.1",
+        "uri": "widgets/Projects/Widget",
+        "index": 18,
+        "id": "widgets/Projects/Widget_16",
+        "openAtStart":false
+      }
+    ],
+    "groups": [],
+    "tabWidgets":[
+
+    ]
+  },
+  "wabVersion": "1.1",
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "appId": ""
+}

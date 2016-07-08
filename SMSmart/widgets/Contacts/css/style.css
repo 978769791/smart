@@ -1,0 +1,21 @@
+table tr td{
+    width:80px;
+    height: 20px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #25B693;
+}
+table {
+    border-collapse: collapse;
+}
+.meilie{
+
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    background:#229d7b ;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}

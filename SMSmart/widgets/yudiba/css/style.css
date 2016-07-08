@@ -1,0 +1,71 @@
+.Fydb {
+    font-size: 13px;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    background: #33CC99;
+    float: left;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+.sydb li{
+    font-size: 14px;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    background: #33CC99;
+    float: left;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+.tydb li{
+    font-size: 14px;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    background: #33CC99;
+    float: left;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+.tydb>li:hover{
+    color: black;
+    background: white;
+}
+.tydb>li:hover .eydb{
+    display: block;
+}
+
+ul li{
+    list-style-type: none;
+}
+.video{
+    width: 110px;
+    margin-top: 5px;
+    /*height: 100px;*/
+    background: #33CC99;
+    float: left;
+    display:none;
+}
+.video ul li{
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.video ul li:hover{
+    color: black;
+    background: white;
+}
+.clear{
+    clear: both;
+}
+
+

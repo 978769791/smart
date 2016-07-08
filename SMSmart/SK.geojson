@@ -1,0 +1,41 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "NAME": "°²É°", "IDNO": "" }, "geometry": { "type": "Point", "coordinates": [ 117.107855, 26.030167 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Ì¨½­", "IDNO": "b30011350403" }, "geometry": { "type": "Point", "coordinates": [ 117.589904, 26.238201 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "áÔ¿ÚÆº", "IDNO": "b30001350423" }, "geometry": { "type": "Point", "coordinates": [ 116.886595, 26.139888 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "ÇÅÏÂ", "IDNO": "b30002350424" }, "geometry": { "type": "Point", "coordinates": [ 116.492403, 26.131590 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Â¡Úé", "IDNO": "b30003350424" }, "geometry": { "type": "Point", "coordinates": [ 116.500000, 26.300000 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "É³Æº", "IDNO": "b30004350424" }, "geometry": { "type": "Point", "coordinates": [ 116.672106, 26.421504 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "¸ßÉ°", "IDNO": "b30053350427" }, "geometry": { "type": "Point", "coordinates": [ 117.900810, 26.435946 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "°ßÖñ", "IDNO": "b30055350402" }, "geometry": { "type": "Point", "coordinates": [ 117.713969, 26.327281 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "¶«ÑÀÏª", "IDNO": "b30056350403" }, "geometry": { "type": "Point", "coordinates": [ 117.606150, 26.218117 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "¹Ù²ý", "IDNO": "b30057350427" }, "geometry": { "type": "Point", "coordinates": [ 117.800012, 26.233020 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "ÈªÉÏ", "IDNO": "b30063350424" }, "geometry": { "type": "Point", "coordinates": [ 116.998070, 26.391910 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Ñ¼Ä·Ì¶", "IDNO": "b30064350481" }, "geometry": { "type": "Point", "coordinates": [ 117.297314, 26.003045 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "ÉÏÛà", "IDNO": "b30072350481" }, "geometry": { "type": "Point", "coordinates": [ 117.075669, 25.766689 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "ÇÙÔ´", "IDNO": "b30112350423" }, "geometry": { "type": "Point", "coordinates": [ 116.899831, 25.881560 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "ÖñÖÞ", "IDNO": "b30010350403" }, "geometry": { "type": "Point", "coordinates": [ 117.516666, 26.161956 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "¹±´¨", "IDNO": "b30025350481" }, "geometry": { "type": "Point", "coordinates": [ 117.453196, 26.100461 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "·áº£", "IDNO": "b30026350481" }, "geometry": { "type": "Point", "coordinates": [ 117.224751, 26.035751 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Î÷ÃÅ", "IDNO": "b30027350481" }, "geometry": { "type": "Point", "coordinates": [ 117.358000, 25.987000 ] } }
+
+]
+}

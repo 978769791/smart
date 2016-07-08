@@ -1,0 +1,148 @@
+{
+  "theme": {
+    "name": "TabTheme",
+    "styles": [
+      "default",
+      "simpleblue",
+      "purple",
+      "red"
+    ],
+    "version": "1.1"
+  },
+  "portalUrl": "http://www.arcgisonline.cn/portal",
+  "title": "JSViewer1.0",
+  "subtitle": "with Web AppBuilder for ArcGIS",
+  "logo": "images/app-logo.png",
+  "geometryService": "http://tools.arcgisonline.cn/arcgis/rest/services/Utilities/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "narutogis",
+      "url": "http://www.narutogis.com/Login"
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/TabTheme/widgets/Header/Widget",
+        "positionRelativeTo": "browser",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 44
+        },
+        "version": "1.1",
+        "id": "themes/TabTheme/widgets/Header/Widget_21",
+        "name": "Header",
+        "label": "页眉"
+      },
+      {
+        "uri": "themes/TabTheme/widgets/Footer/Widget",
+        "positionRelativeTo": "browser",
+        "position": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "height": 24
+        },
+        "version": "1.1",
+        "id": "themes/TabTheme/widgets/Footer/Widget_22",
+        "name": "Footer",
+        "label": "页脚"
+      },
+      {
+        "uri": "themes/TabTheme/widgets/SidebarController/Widget",
+        "positionRelativeTo": "browser",
+        "position": {
+          "left": 0,
+          "top": 44,
+          "bottom": 24
+        },
+        "version": "1.1",
+        "id": "themes/TabTheme/widgets/SidebarController/Widget_23",
+        "name": "SidebarController",
+        "label": "侧边栏控制器"
+      },
+
+      {
+        "position": {
+          "left": 45,
+          "top": 45,
+          "width": 400,
+          "height": 410
+        },
+        "placeholderIndex": 1,
+        "id": "_28",
+        "positionRelativeTo": "map"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/PreloadWidgetIconPanel",
+      "positionRelativeTo": "map"
+    }
+  },
+  "map": {
+    "3D": true,
+    "2D": false,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "basemaps": [
+      {
+        "label": "google",
+        "type":"tiled"
+      }
+    ],
+    "itemId": "",
+
+    "mapOptions": {
+      "extent": {
+        "xmin": 112.219122695922,
+        "ymin": 39.033916745185,
+        "xmax": 112.243584442138,
+        "ymax": 39.066311411857,
+        "spatialReference": {
+          "wkid": 4326
+        }
+      },
+      "logo": false,
+      "timeline": false
+    },
+    "id": "map"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/TabTheme/panels/TabPanel/Panel",
+      "positionRelativeTo": "browser",
+      "position": {
+        "top": 44,
+        "left": 0,
+        "bottom": 22
+      }
+    },
+    "widgets": [
+
+      {
+        "name": "Bookmark",
+        "label": "书签",
+        "version": "1.1",
+        "uri": "widgets/Bookmark/Widget",
+        "index": 4,
+        "id": "widgets/Bookmark/Widget_16"
+      }
+    ],
+    "groups": []
+  },
+  "wabVersion": "1.1",
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "appId": ""
+}

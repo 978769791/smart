@@ -1,0 +1,21 @@
+{
+	"ImageryLayers": [{
+		"name": "基础图层",
+	    "id":"jichu",
+		"url":"http://101.201.113.25:6080/arcgis/rest/services/SMFB_NEW/SMFB_NEW/MapServer",
+		"thumbnail": "images/thumbnail_great_wall.png"
+	},{
+	  "name": "重点水利工程",
+	  "id":"project",
+	  "url":"http://101.201.113.25:6080/arcgis/rest/services/SMFB_NEW/SMFB_NEW/MapServer",
+	  "thumbnail": "images/thumbnail_great_wall.png"
+	},{
+	  "name": "视频监控",
+	  "id":"video",
+	  "url":"http://101.201.113.25:6080/arcgis/rest/services/SMFB_NEW/SMFB_NEW/MapServer",
+	  "thumbnail": "images/thumbnail_great_wall.png"
+	}
+
+	],
+	"flyTime": 3000
+}

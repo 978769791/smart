@@ -1,0 +1,34 @@
+ul li{
+    list-style-type: none;
+}
+.ansha{
+    width: 100%;
+    height: 217px;
+    background:#229d7b ;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.ansha ul li{
+    font-size: 16px;
+    width: 100%;
+    height: 35px;
+    line-height: 20px;
+    color: white;
+    text-shadow: 1px 1px 4px white;
+}
+.ximendianzhan{
+    width: 100%;
+    height: 217px;
+    background:#229d7b ;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.ximendianzhan ul li{
+    font-size: 16px;
+    width: 100%;
+    height: 35px;
+    line-height: 20px;
+    color: white;
+    text-shadow: 1px 1px 4px white;
+}

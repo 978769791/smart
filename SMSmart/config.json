@@ -1,0 +1,300 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "default",
+      "black",
+      "green",
+      "cyan"
+    ],
+    "version": "1.1"
+  },
+  "title": "智慧防汛",
+  "subtitle": "",
+  "logo": "images/logo.png"
+  ,
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/TabTheme2/widgets/SidebarController/Widget",
+        "positionRelativeTo": "map",
+        "position":{"left":0,"top":0,"bottom":0},
+
+        "version": "1.1",
+        "id": "themes/TabTheme2/widgets/SidebarController/Widget_23",
+        "name": "SidebarController",
+        "label": "侧边栏控制器"
+      },
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "positionRelativeTo": "browser",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 60
+        },
+        "version": "1.1",
+        "id": "themes/FoldableTheme/widgets/HeaderController/Widget_1",
+        "name": "HeaderController",
+        "label": "页眉控制器"
+      },
+      {
+        "uri": "widgets/MapLegend/Widget",
+        "position":{
+          "left": 375,
+          "top": "auto",
+          "right":"auto",
+          "bottom":25,
+          "width":260,
+          "height":240
+        },
+        "id": "widgets/MapLegend/Widget_8",
+        "positionRelativeTo": "map",
+        "name": "MapLegend",
+        "label": "MapLegend"
+      }
+
+    ],
+    "panel": {
+      "uri": "jimu/PreloadWidgetIconPanel",
+      "positionRelativeTo": "map"
+    }
+  },
+  "map": {
+    "3D": true,
+    "2D": false,
+    "position": {
+      "left": 0,
+      "top": 60,
+      "right": 0,
+      "bottom": 0
+    },
+    "basemaps": [
+      {
+        "label": "google",
+        "type":"tiled"
+      }
+    ],
+    "smlayers":[
+      {
+        "layername":"大型淤地坝",
+        "layerid":"DXyudiba_point"
+      },
+      {
+        "layername":"骨干坝",
+        "layerid":"Guganba_point"
+      },
+      {
+        "layername":"中型淤地坝",
+        "layerid":"Zhongxingba_point"
+      },
+      {
+        "layername":"小型坝",
+        "layerid":"Xiaoxingba_point"
+      },
+      {
+        "layername":"准格尔沙棘",
+        "layerid":"ZhunGeErShaJiQu_polygon"
+      }
+    ],
+    "itemId": "",
+
+    "mapOptions": {
+      "extent": {
+        "xmin": 116.61,
+        "ymin": 26.23,
+        "xmax": 117.61,
+        "ymax": 27.23,
+        "spatialReference": {
+          "wkid": 4326
+        }
+      },
+      "logo": false,
+      "timeline": false
+    },
+    "id": "map"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "positionRelativeTo": "map",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5
+      }
+    },
+    "widgets": [
+    {
+
+        "name": "Todays flood",
+        "label": "今日汛情",
+        "version": "1.1",
+        "uri": "widgets/TodayFloodInfo/Widget",
+        "index": 1,
+        "id": "widgets/TodayFloodInfo/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "WaterInfo",
+        "label": "水情",
+        "version": "1.1",
+        "uri": "widgets/WaterInfo/Widget",
+        "index": 2,
+        "id": "widgets/WaterInfo/Widget_15",
+        "openAtStart":false
+      },{
+        "name": "RainInfo",
+        "label": "雨情",
+        "version": "1.1",
+        "uri": "widgets/RainInfo/Widget",
+        "index": 3,
+        "id": "widgets/RainInfo/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "Comparison Table",
+        "label": "对比与分析",
+        "version": "1.1",
+        "uri": "widgets/Comparison Table/Widget",
+        "index": 4,
+        "id": "widgets/Comparison Table/Widget_15",
+        "openAtStart":false
+      },{
+        "name": "Engineering conditions",
+        "label": "工情",
+        "version": "1.1",
+        "uri": "widgets/Engineering conditions/Widget",
+        "index": 5,
+        "id": "widgets/Engineering conditions/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "TheWeather forecast",
+        "label": "雨量和水位预报",
+        "version": "1.1",
+        "uri": "widgets/TheWeather forecast/Widget",
+        "index": 6,
+        "id": "widgets/TheWeather forecast/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "Weather forecast",
+        "label": "气象预报",
+        "version": "1.1",
+        "uri": "widgets/Weather forecast/Widget",
+        "index": 7,
+        "id": "widgets/Weather forecast/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "Early Warning Services",
+        "label": "预警服务",
+        "version": "1.1",
+        "uri": "widgets/Early Warning Services/Widget",
+        "index": 8,
+        "id": "widgets/Early Warning Services/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "LayerControl",
+        "label": "图层控制",
+        "version": "1.1",
+        "uri": "widgets/LayerControl/Widget",
+        "index": 9,
+        "id": "widgets/LayerControl/Widget_16",
+        "openAtStart":false
+      },{
+        "name": "Notices",
+        "label": "通知通告",
+        "version": "1.1",
+        "uri": "widgets/Notices/Widget",
+        "index": 10,
+        "id": "widgets/Notices/Widget_15",
+        "openAtStart":false
+      },{
+        "name": "Contacts",
+        "label": "通讯录",
+        "version": "1.1",
+        "uri": "widgets/Contacts/Widget",
+        "index": 11,
+        "id": "widgets/Contacts/Widget_15",
+        "openAtStart":false
+      },{
+        "name": "Flood control plan",
+        "label": "应急预案",
+        "version": "1.1",
+        "uri": "widgets/Flood control plan/Widget",
+        "index": 12,
+        "id": "widgets/Flood control plan/Widget_15",
+        "openAtStart":false
+      },
+
+      {
+        "name": "Rescue teams2",
+        "label": "dojo弹出框",
+        "version": "1.1",
+        "uri": "widgets/Rescue teams2/Widget",
+        "index": 201,
+        "id": "widgets/Rescue teams2/Widget_1105",
+        "openAtStart":false
+      },{
+        "name": "Flood control materials",
+        "label": "防汛物资",
+        "version": "1.1",
+        "uri": "widgets/Flood control materials/Widget",
+        "index": 13,
+        "id": "widgets/Flood control materials/Widget_15",
+        "openAtStart":false
+      },{
+        "name": "Rescue teams",
+        "label": "抢险队伍",
+        "version": "1.1",
+        "uri": "widgets/Rescue teams/Widget",
+        "index": 14,
+        "id": "widgets/Rescue teams/Widget_15",
+        "openAtStart":false
+      },
+      {
+        "name": "Projets",
+        "label": "淤堤坝",
+        "version": "1.1",
+        "uri": "widgets/Projects/Widget",
+        "index": 15,
+        "id": "widgets/Projects/Widget_16",
+        "openAtStart":false
+      },{
+        "name": "Bookmark",
+        "label": "书签",
+        "version": "1.1",
+        "uri": "widgets/Bookmark/Widget",
+        "index": 16,
+        "id": "widgets/Bookmark/Widget_15",
+        "openAtStart":false
+      }
+    ,{
+        "name": "yudiba",
+        "label": "淤地坝视频监控点",
+        "version": "1.1",
+        "uri": "widgets/yudiba/Widget",
+        "index": 106,
+        "id": "widgets/Bookmark/Widget_1.5",
+        "openAtStart":false
+      }
+    ],
+    "groups": [],
+    "tabWidgets":[
+
+    ]
+  },
+  "wabVersion": "1.1",
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "appId": ""
+}

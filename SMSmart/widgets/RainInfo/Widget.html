@@ -1,0 +1,91 @@
+﻿<div >
+
+    <div>
+        <div class="sssq">实时雨情</div>
+        <div class="sssq-tjxz">条件选择</div>
+        <div style="width: 100%;height: 30px;margin-top: 6px">
+            <label for="myShortYear">从:</label>
+            <input data-dojo-id="myShortYear" type="text" name="shortYear" data-dojo-type="dijit/form/DateTextBox" data-dojo-props="constraints:{fullYear: false}" value="2016-05-20" required="true" />
+
+            <input id="progval" />
+        </div>
+        <div style="width: 100%;height: 30px;margin-top: 6px">
+
+            <label for="myShortYears">从:</label>
+            <input data-dojo-id="myShortYears" type="text" name="shortYears" data-dojo-type="dijit/form/DateTextBox" data-dojo-props="constraints:{fullYear: false}" value="2016-05-20" required="true" />
+
+            <input id="progvals"/>
+        </div>
+        <div class="search" style="display: block;margin:6px 0;">
+            <span class="zmbm">站名或编码:</span>
+            <input class="sm-ssyq-srk" data-dojo-attach-point="nmorcd" type="text">
+            <input type="button" class="sm-ssyq-cxbtn" onclick="byname()" value="搜索">
+        </div>
+        <div style="width: 100%;height: 118px;margin:6px 0;font-size: 1.6em">
+            <span style="-moz-user-select: none;width: 100%;height: 30px;background-color: #25B693;color:#ffffff;display: inline-block;font-size:1.1em;text-align:center;line-height: 30px;">雨量范围:</span>
+            <div style="width: 33.33%;height: 30px;line-height: 30px;float: left">
+                <input style=" display: block; float: left;width: 16px;height: 16px;margin-left: 7px;margin-top: 7px" type="checkbox">
+                <div style="width: 11px;height: 11px;border:1px solid #cccccc;border-radius: 6px;background-color: #fff;float: left;margin-left: 7px;
+    margin-top: 10px;"></div>
+                <p style="font-size:0.7em;height: 30px;line-height: 30px;margin-left: 3px;
+    margin-top: 0px;float: left">0</p>
+            </div>
+            <div style="width: 33.33%;height: 30px;line-height: 30px;float: left">
+                <input style=" display: block; float: left;width: 16px;height: 16px;margin-left:7px;margin-top: 7px" type="checkbox">
+                <div style="width: 11px;height: 11px;border:1px solid #cccccc;border-radius: 6px;background-color: #02FFFF;float: left;margin-left: 7px;
+    margin-top: 10px;"></div>
+                <p style="font-size: 0.7em;height: 30px;line-height: 30px;margin-left: 3px;
+    margin-top: 0px;float: left">0.1-1</p>
+            </div>
+            <div style="width: 33.33%;height: 30px;line-height: 30px;float: left">
+                <input style=" display: block; float: left;width: 16px;height: 16px;margin-left: 7px;margin-top: 7px" type="checkbox">
+                <div style="width: 11px;height: 11px;border:1px solid #cccccc;border-radius: 6px;background-color: #FFFF02;float: left;margin-left: 7px;
+    margin-top: 10px;"></div>
+                <p style="font-size: 0.7em;height: 30px;line-height: 30px;margin-left: 3px;
+    margin-top: 0px;float: left">1-25</p>
+            </div>
+            <div style="width: 33.33%;height: 30px;line-height: 30px;float: left">
+                <input style=" display: block; float: left;width: 16px;height: 16px;margin-left: 7px;margin-top: 7px" type="checkbox">
+                <div style="width: 11px;height: 11px;border:1px solid #cccccc;border-radius: 6px;background-color: #02FF02;float: left;margin-left: 7px;
+    margin-top: 10px;"></div>
+                <p style="font-size: 0.7em;height: 30px;line-height: 30px;margin-left: 3px;
+    margin-top: 0px;float: left">25-50</p>
+            </div>
+            <div style="width: 33.33%;height: 30px;line-height: 30px;float: left">
+                <input style=" display: block; float: left;width: 16px;height: 16px;margin-left: 7px;margin-top: 7px" type="checkbox">
+                <div style="width: 11px;height: 11px;border:1px solid #cccccc;border-radius: 6px;background-color: #0202FF;float: left;margin-left: 7px;
+    margin-top: 10px;"></div>
+                <p style="font-size: 0.7em;height: 30px;line-height: 30px;margin-left: 3px;
+    margin-top: 0px;float: left">50-100</p>
+            </div>
+            <div style="width: 33.33%;height: 30px;line-height: 30px;float: left">
+                <input style=" display: block; float: left;width: 16px;height: 16px;margin-left: 7px;margin-top: 7px" type="checkbox">
+                <div style="width: 11px;height: 11px;border:1px solid #cccccc;border-radius: 6px;background-color: #FF02FF;;float: left;margin-left: 7px;
+    margin-top: 10px;"></div>
+                <p style="font-size: 0.7em;height: 30px;line-height: 30px;margin-left: 3px;
+    margin-top: 0px;float: left">100-200</p>
+            </div>
+            <div style="width: 33.33%;height: 30px;line-height: 30px;float: left">
+                <input style=" display: block; float: left;width: 16px;height: 16px;margin-left: 7px;margin-top: 7px" type="checkbox">
+                <div style="width: 11px;height: 11px;border:1px solid #cccccc;border-radius: 6px;background-color: #FF0202;float: left;margin-left: 7px;
+    margin-top: 10px;"></div>
+                <p style="font-size: 0.7em;height: 30px;line-height: 30px;margin-left: 3px;
+    margin-top: 0px;float: left">200以上</p>
+            </div>
+        </div>
+        <div id="history">
+            <ul style="padding: 0px">
+                <li data-dojo-attach-event="onclick:_onBookmarkClick"style="cursor: pointer">历史过程曲线</li>
+                <li data-dojo-attach-event="onclick:_onBookmarkClicks" style="cursor: pointer">历史数据列表</li>
+            </ul>
+
+        </div>
+        <div style="margin-top: 10px;width: 100%;height: 472px;font-size: 1.32em;">
+            <span class="swxx" style="display:block;text-align:left;line-height: 30px;background-color: #25B693;width: 100%;height: 30px;font-size: 1.2em;color: white">雨量信息(单位：mm)</span>
+            <div data-dojo-attach-point="gridDiv" style="width: 332px;height: 474px;margin: 0 auto" >
+            </div>
+        </div>
+
+    </div>
+
+</div>

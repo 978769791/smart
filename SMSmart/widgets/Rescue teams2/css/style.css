@@ -1,0 +1,40 @@
+#ai>ul>li{
+    list-style-type: none;
+    padding: 5px ;
+    float: left;
+    width: 150px;
+    font-size: 16px;
+    background: #229d7b;
+    text-align: center;
+    position: relative;
+}
+#ai>ul>li:first-child{
+    background: blue;
+}
+.children{
+    display: block;
+    position: absolute;
+    top: 34px;
+    width: 150px;
+    left: 0px;
+    display: none;
+
+}
+#ai>ul>li:hover .children{
+    display: block;
+}
+.children ul li{
+    list-style-type: none;
+    background: plum;
+}
+.children ul li:first-child{
+    display: block;
+}
+
+.nav-menu ul li{
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+
+

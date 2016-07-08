@@ -1,0 +1,9 @@
+.jimu-main-bgcolor{
+  /*background-color: #ffffff;*/
+  background-color: rgba(255, 255, 255, 0);
+
+}
+.jimu-preload-widget-icon-panel>.title{
+  color: white;
+  background-color: #292929;
+}

@@ -1,0 +1,246 @@
+
+@import url("../common.css");
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+
+    padding: 0;
+}
+
+table {
+    border: 1px solid #25B693;
+    width: 100%;
+    /*height: auto;*/
+    /*height:auto;*/
+}
+
+table tr {
+    height: 30px;
+    text-align: center;
+    border: 1px solid #25B693;
+}
+tr th {
+    border: 1px solid #25B693;
+}
+
+
+tr td {
+    width: 4em;
+    border: 1px solid #25B693;
+    /*border-right: 1px solid #25B693;*/
+}
+
+tr td:hover {
+    width: 4em;
+    background-color: #B2E1FF;
+}
+
+
+ul li {
+    list-style: none;
+    font-size: 16px;
+    text-align: center;
+    background: #25B693;
+    color: white;
+}
+
+.sssq {
+    -moz-user-select: none;
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px 5px 0 0;
+    background-color: #25B693;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-family: "Microsoft YaHei";
+}
+
+.sssq-tjxz {
+    -moz-user-select: none;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background-color: #25B693;
+    font-family: "Microsoft YaHei";
+}
+
+ul {
+    width: 100%;
+    height: 30px;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 30px;
+    float: left;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    display: inline-block;
+    float: left;
+    line-height: 30px;
+}
+
+li a {
+    -moz-user-select: none;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    display: inline-block;
+    line-height: 30px;
+    color: black;
+    float: left;
+    text-decoration: none;
+}
+
+li input {
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+.search {
+    width: 100%;
+    height: 30px
+}
+
+.search .zmbm {
+    -moz-user-select: none;
+    width: 39%;
+    height: 30px;
+    font-size: 1vw;
+    display: inline-block;
+    float: left;
+    line-height: 30px;
+}
+
+.search .sm-ssyq-srk {
+    padding-left: 10px;
+    width: 37%;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    border-width: 2px 0 2px 2px;
+    border-color: #eee;
+    box-shadow: 0px 2px 2px #eee;
+    border-style: solid;
+    outline: none;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #25B693;
+}
+
+.search .sm-ssyq-cxbtn {
+    padding: 0;
+    float: left;
+    width: 24%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-width: 2px 2px 2px 0;
+    background-color: #25B693;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-style: normal;
+    border: #25B693;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 2px 2px #EEE;
+}
+
+.sm-ssyq-swxx {
+    width: 100%;
+    height: 30px;
+    display: block;
+    background-color: #25B693;
+    margin-top: 10px;
+}
+
+.sm-ssyq-swxx .swxx {
+    margin-left: 5px;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    display: inline-block;
+    float: left;
+    line-height: 30px;
+    color: #ffffff;;
+}
+
+.sm-ssyq-swxx .sm-sssq-sz {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #25B693;
+    /*overflow:scroll;overflow-x: hidden;*/
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 0;
+}
+
+.sm-ssyq-swxx .sm-sssq-sz table {
+    border: 1px solid #25B693;
+    width: 100%;
+    /*height:auto;*/
+}
+
+.sm-ssyq-swxx .sm-sssq-sz table tr {
+    height: 30px;
+    text-align: center;
+    border: 1px solid #25B693;
+}
+
+.sm-ssyq-swxx .sm-sssq-sz table tr th {
+    border: 1px solid #25B693;
+}
+
+.sm-ssyq-swxx .sm-sssq-sz table tr .sssq-zd {
+    -moz-user-select: none;
+    text-align: center;
+    font-size: 16px;
+    width: 45%;
+}
+
+.sm-ssyq-swxx .sm-sssq-sz table tr .sssq-sw {
+    -moz-user-select: none;
+    text-align: center;
+    font-size: 16px;
+    width: 55%;
+}
+
+.sm-ssyq-swxx .sm-sssq-sz table tr td {
+    border: 1px solid #25B693;
+    /*border-right: 1px solid #25B693;*/
+}
+
+.sm-ssyq-swxx .sm-sssq-sz table tr td:hover {
+    background-color: #B2E1FF;
+}
+.dojoxGridView {
+    width: 302px;
+    height: 443px;
+    left: 0;
+    top: 0px;
+}
+#history ul li{
+    font-size: 16px;
+}

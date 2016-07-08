@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>jQuery带时间轴按钮自动轮播焦点图 - 【科e互联】</title>
+<link rel="stylesheet" href="css/demo.css">
+<link rel="stylesheet" href="css/timeliner.css">
+<link rel="stylesheet" href="css/timeliner_styling.css">
+<script src='js/jquery-1.6.2.min.js'></script>
+<script src='js/jquery.timeliner.min.js'></script>
+<script>
+$(document).ready(function(){
+
+// EXAMPLE 1:
+$('#example1').timeliner();
+
+// EXAMPLE 2:
+$('#example2').timeliner({
+tooltipposition: 'below',
+timelinewidth: 710,
+timelineverticalmargin: 35,
+transition: 'slide'
+});
+
+// EXAMPLE 3:
+$('#example3').timeliner({
+containerwidth: 600,
+containerheight: 300,
+timelinewidth: 550,
+timelineheight: 3,
+timelineverticalmargin: 0,
+autoplay: false,
+showtooltiptime: true,
+repeat: false,
+showtotaltime:true,
+timedisplayposition: 'below',
+transition: 'fade'
+});
+
+});
+
+// Callback function examples:
+function start_callback(id){
+if(id=='example1'){
+$('#callback_log').html('Timeliner "'+id+'" started');
+}
+}
+function newslide_callback(id, slide){
+if(id=='example1'){
+$('#callback_log').html('Timeliner "'+id+'" changed to slide '+slide);
+}
+}
+function end_callback(id){
+if(id=='example1'){
+$('#callback_log').html('Timeliner "'+id+'" ended');
+}
+}
+function paused_callback(id, slide){
+if(id=='example1'){
+$('#callback_log').html('Timeliner "'+id+'" paused at slide '+slide);
+}
+}
+function resumed_callback(id, slide){
+if(id=='example1'){
+$('#callback_log').html('Timeliner "'+id+'" resumed at slide '+slide);
+}
+}
+function click_callback(id, slide){
+if(id=='example1'){
+$('#callback_log').html('Clicked on slide '+slide+' of Timeliner "'+id+'"');
+}
+}
+</script>
+</head>
+<body class="keBody">
+<h1 class="keTitle">jQuery带时间轴按钮自动轮播焦点图</h1>
+<div class="kePublic">
+<!--效果html开始-->
+<div id="content">
+<ul id="example1" class="timeliner">
+<li title="Slide one" style="background:url(images/slide1.jpg);"></li>
+<li title="Slide two" style="background:url(images/slide2.jpg);" lang="5"></li>
+<li title="Slide three with a long title" style="background:url(images/slide3.jpg);" lang="5"></li>
+</ul>
+</div>
+<!--效果html结束-->
+<div class="clear"></div>
+</div>
+<div class="keBottom">
+<p class="keTxtP">科e互联网页特效集锦---更多特效请访问 <a class="keUrl" href="http://www.internetke.com" target="_blank">www.internetke.com</a></p>
+<p class="keTxtP">本站导航：
+<a href="http://www.internetke.com/" target="_blank" class="cor_bs">网站建设</a> | 
+<a href="http://www.internetke.com/material/" target="_blank" class="cor_bs">网页素材</a> | 
+<a href="http://www.internetke.com/effects/" target="_blank" class="cor_bs">网页特效</a> | 
+<a href="http://www.internetke.com/share/" target="_blank" class="cor_bs">设计分享</a> | 
+<a href="http://www.internetke.com/tutorial/" target="_blank" class="cor_bs">建站教程</a> | 
+<a href="http://www.internetke.com/model/" target="_blank" class="cor_bs">网站模版</a> | 
+<a href="http://www.internetke.com/appreciate/" target="_blank" class="cor_bs">酷站赏析</a>
+</p>
+<p class="keTxtP">＊尊重他人劳动成果，转载请自觉注明出处！注：此代码为【科e整理/原创特效】仅供学习交流，请勿用于商业用途。
+<a target="_blank" href="http://wp.qq.com/wpa/qunwpa?idkey=a7df3558c291e0407375b9ad649d96a6e507286ffeb0650c65a221d1500a0779" class="button red" title="北京网站建设,网页特效QQ交流群-科e互联">加入QQ交流群</a></p>
+</div>
+</body>
+</html>
